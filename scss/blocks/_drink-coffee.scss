@@ -1,0 +1,264 @@
+.drink-inner{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 168px;
+  padding-right: 85px;
+  padding-left: 85px;
+}
+
+.drink-inner__left{
+  width: 254px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.info__link{
+  text-decoration: none;
+  font-family: $main-font-family-Fraunces;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F; 
+  border-bottom: 1px solid #83888F;
+  transition: background-color 0.6s;
+
+  &:hover{
+    color: $main-color-dark-gray-blue;
+  }
+}
+
+.link5{
+  border: none;
+}
+
+.active{
+  padding: 0;
+  color: $main-color-dark-gray-blue;
+}
+
+.info__span{
+  display: flex;
+}
+
+
+
+.info__number{
+  margin-right: 28px;
+  font-family: $main-font-family-Fraunces;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  opacity: 0.6;
+  transition: background-color 0.6s;
+  
+  &:hover{
+    color: #0E8784;
+    opacity: 1;
+}
+}
+
+.number-active{
+  padding: 0;
+  color: #0E8784;
+  opacity: 1;
+}
+
+
+.info__text {
+  width: 225px;
+  margin-bottom: 20px;
+  font-family: $main-font-family-Fraunces;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F; 
+  opacity: 0.6;
+}
+
+.text-active{
+  color: $main-color-dark-gray-blue;
+  opacity: 1;
+}
+
+.info__text:hover{
+  color: $main-color-dark-gray-blue;
+  opacity: 1;
+}
+
+
+
+.form__title{
+  display: inline-block;
+  margin-right: 80px;
+  font-family: $main-font-family-Fraunces;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+
+.form__img{
+  width: 18px;
+  height: 12px;
+}
+
+.drink-box{
+  display: flex;
+}
+
+
+.drink-box__span{
+  display: inline-block;
+  width: 228px;
+  height: 250px;
+  background-color: #F4F1EB;
+  transition: background-color 0.8s;
+
+  &:hover{
+    background-color: #FDD6BA;
+  }
+
+}
+
+.span2{
+  margin-right: 28px;
+  margin-left: 28px;
+}
+
+.drink-box__title{
+  margin-top: 32px;
+  margin-right: 28px;
+  margin-bottom: 24px;
+  margin-left: 26px;
+  font-family: $main-font-family-Fraunces;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+
+}
+
+.drink-box__text{
+  margin-top: 24px;
+  margin-right: 20px;
+  margin-bottom: 84px;
+  margin-left: 26px;
+  font-family: $main-font-family-Barlow;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+
+}
+
+.drink-box__input:checked ~ .drink-box__span{
+  background-color: $main-color-dark-cyan;
+}
+
+.drink-box__input:checked ~ .drink-box__span > .drink-box__title{
+  color: #FFF;
+}  
+
+.drink-box__input:checked ~ .drink-box__span > .drink-box__text{
+  color: #FFF;
+}  
+
+.drink-bottom{
+  display: flex;
+  width: 730px;
+  // margin-left: 460px;
+  flex-direction: column;
+}
+
+.drink-bottom__span{
+  display: flex;
+  margin-top: 54px;
+  justify-content: space-between;
+}
+
+.drink-bottom__text{
+  font-family: $main-font-family-Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+
+.drink-bottom__img{
+  margin-top: 60px;
+  width: 18px;
+  height: 12px;
+}
+
+// .bottom-img{
+//   width: 730px;
+//   height: 208px;
+//   margin-top: 84px;
+//   margin-bottom: 70px;
+// }
+
+.drink-foot {
+  background-color: #293039;
+  border-radius: 8px;
+  margin-top: 84px;
+
+}
+
+
+.drink-foot__inner{
+  padding: 47px 64px;
+}
+
+
+
+.drink-foot__inner__text {
+  line-height: 26px;
+  font-weight: 400;
+  opacity: 0.5;
+  margin: 0px;
+  color: #fff;
+}
+
+
+
+
+.drink-foot__inner__span {
+  font-family: "Fraunces", "serif";
+  width: 602px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 900;
+  color: #fff;
+  margin-top: 8px;
+
+}
+
+.drink-foot__inner__span-color {
+  font-family: "Fraunces", "serif";
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 900;
+  color: #0E8784;
+}
+
+.bottom__link{
+  width: 217px;
+  height: 56px;
+  margin-top: 50px;
+  margin-bottom: 168px;
+  margin-left: 510px;
+  border: 1px solid transparent;
+  background-color: #0E8784;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.8s;
+  &:hover{
+    border: none;
+    background:#66D2CF;
+    border-radius: 6px;
+   }
+
+}

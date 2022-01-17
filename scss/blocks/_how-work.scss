@@ -1,0 +1,104 @@
+.how-work{
+  background-color: $main-color-dark-gray-blue;
+}
+
+.how-work__span{
+  display: inline-block;
+  width: 760px;
+  height: 2px;
+  margin-bottom: 82px;
+  margin-left: 100px;
+  margin-top: 115px;
+  position: relative;
+  z-index: 1;
+  background-color: #FDD6BA;
+}
+
+.how-work__subleft{
+  width: 31px;
+  height: 31px;
+  top:-15px;
+  left:-15px;
+  position: absolute;
+  z-index: 2;
+  border:solid 2px #0E8784;
+  border-radius: 50%;
+}
+
+.how-work__subsmid{
+  width: 31px;
+  height: 31px;
+  top:-15px;
+  left:365px;
+  position: absolute;
+  z-index: 2;
+  border:solid 2px #0E8784;
+  border-radius: 50%;
+}
+
+.how-work__subright{
+  width: 31px;
+  height: 31px;
+  top:-15px;
+  left:745px;
+  position: absolute;
+  z-index: 2;
+  border:solid 2px #0E8784;
+  border-radius: 50%;
+}
+
+.how-work__list{
+  display: flex;
+  padding: 0;
+  margin-top: 38px;
+  margin-left: 85px;
+}
+
+.how-work__item{
+  
+  list-style: none;
+
+}
+
+.how-work__item:nth-child(even){
+  margin: 0 95px;
+}
+
+.how-work__number{
+  font-family: $main-font-family-Fraunces;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+
+.how-work__title{
+  width: 255px;
+  height: 72px;
+  font-family: $main-font-family-Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+}
+
+.how-work__text{
+  width: 285px;
+  height: 130px;
+  margin-bottom: 80px;
+  font-family: $main-font-family-Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+  }
+
+
+
+
+
+
+
